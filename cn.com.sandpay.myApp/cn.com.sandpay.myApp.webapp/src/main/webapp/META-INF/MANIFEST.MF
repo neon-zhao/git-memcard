@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: webapp
+Bundle-ClassPath: .,WEB-INF/classes,WEB-INF/lib
+Web-ContextPath: webapp
+Bundle-SymbolicName: cn.com.sandpay.myApp.webapp
+Bundle-Version: 1.0.0.qualifier
+Import-Package: javax.servlet;version="2.4.0",
+ javax.servlet.http;version="2.4.0",
+ org.apache.log4j;version="1.2.15"
+Import-Library: org.springframework.spring;version="[3.0.5.RELEASE,3.0.5.RELEASE]"
+Import-Bundle: com.springsource.org.codehaus.jackson.mapper;version="[1.0.0,1.0.0]",
+ com.springsource.org.codehaus.jackson;version="[1.0.0,1.0.0]",
+ org.eclipse.virgo.web.dm;version="[3.0.3.RELEASE,3.0.3.RELEASE]"
+Require-Bundle: cn.com.sandpay.myApp.service;bundle-version="1.0.0"

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Util
+Bundle-SymbolicName: cn.com.sandpay.myApp.util
+Bundle-Version: 1.0.0.qualifier
+Export-Package: cn.com.sandpay.myApp.util
