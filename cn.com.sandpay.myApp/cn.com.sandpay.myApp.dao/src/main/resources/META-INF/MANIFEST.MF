@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: dao
+Bundle-SymbolicName: cn.com.sandpay.myApp.dao
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: cn.com.sandpay.myApp.domain;bundle-version="1.0.0"
+
